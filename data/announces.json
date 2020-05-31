@@ -1,0 +1,10 @@
+{
+    "content" : [{
+        "no": 1,
+        "title": "주식회사 원더우먼 설립 공고",
+        "text": "이 공고는 XX와 YY해서 ZZ하는 내용의 공고입니다.",
+        "duration": "2020-06-01 ~ 2020-06-30",
+        "createdDate": "2020-06-01",
+        "lastModifiedDate": "-"
+    }]
+}

@@ -1,7 +1,8 @@
 {
   "components" : [
     "cover",
-    "about"
+    "about",
+    "announces"
   ],
   "email" : "help@wonderwoman.biz"
 }

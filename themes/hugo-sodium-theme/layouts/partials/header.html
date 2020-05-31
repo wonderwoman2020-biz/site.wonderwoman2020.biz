@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="ko-KR">
   <head>
     <title>
  			{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}
@@ -13,16 +13,15 @@
 
     <!-- og -->
     <meta name="og:title" content="{{ .Title }}"/>
-	<meta name="og:url" content="{{ .Permalink }}"/>
-	{{ if .Params.featuredimage }}
-	<meta name="og:image" content="{{ .Params.featuredimage | absURL}}"/>
-	{{ end }}
-	{{ if .Params.description }}
-	<meta name="og:description" content="{{ .Params.description }}"/>
-	{{ end }}
-	<meta name="og:site_name" content="{{ .Site.Title }}"/>
+    <meta name="og:url" content="{{ .Permalink }}"/>
+    {{ if .Params.featuredimage }}
+    <meta name="og:image" content="{{ .Params.featuredimage | absURL}}"/>
+    {{ end }}
+    {{ if .Params.description }}
+    <meta name="og:description" content="{{ .Params.description }}"/>
+    {{ end }}
+    <meta name="og:site_name" content="{{ .Site.Title }}"/>
 		
-
     <!-- including bootstrap -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/style.css">

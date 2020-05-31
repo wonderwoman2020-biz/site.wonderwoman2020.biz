@@ -9,6 +9,10 @@
     {
       "title" : "About Us",
       "href" : "#about"
+    },
+    {
+      "title" : "Announce",
+      "href" : "#announces"
     }
   ]
 }
