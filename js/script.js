@@ -54,17 +54,6 @@ $(document).ready(function(){
     body.removeClass("zoomOut");
   });
 
-  //Smooth scroll
-  $('a').click(function(){
-    var hash = $(this).attr('href').split('#')[1];
-    $('html, body').animate({
-        scrollTop: $('#' + hash).offset().top
-    }, 500);
-    return false;
-  });
-
-
-
   $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
@@ -75,7 +64,7 @@ $(document).ready(function(){
     } else {
       $(".nav-transparent").removeClass("navbar-light").addClass("navbar-dark");
     }
-});
+  });
 
 
 });
