@@ -1,0 +1,4 @@
+baseURL = "https://wonderwoman2020.biz"
+languageCode = "ko_KR"
+title = "주식회사 원더우먼"
+theme = "hugo-sodium-theme"
